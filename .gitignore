@@ -1,0 +1,5 @@
+*.egg-info/
+*.pyc
+**/.gazebo/*
+**/.sdformat/*
+**/.config/*
