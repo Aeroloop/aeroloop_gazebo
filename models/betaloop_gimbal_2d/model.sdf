@@ -182,9 +182,11 @@
       </axis>
       <pose>0 0 0.02 0 0 0</pose>
     </joint>
-
+	<!--
     <plugin name="gimbal_2d" filename="libGimbalSmall2dPlugin.so">
       <joint>tilt_joint</joint>
     </plugin>
+-->
+
   </model>
 </sdf>
