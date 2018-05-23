@@ -121,7 +121,7 @@
 			<angular_velocity>
 				<!-- At runtime these are filled in -->
 				<x>
-					<noise type="gaussian">
+					<noise type="none">
 						<stddev>0.1</stddev>
 					</noise>
 				</x>
