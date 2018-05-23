@@ -140,7 +140,7 @@
       <link_name>quadcopter_model::rotor_3</link_name>
     </plugin>
     <plugin name="arducopter_plugin" filename="libArduCopterPlugin.so">
-      <imuName>quadcopter::quadcopter_model::quadcopter_model/imu_link::imu_sensor</imuName>
+      <imuName>quadcopter_attitude_control::quadcopter_model::quadcopter_model/imu_link::imu_sensor</imuName>
       <connectionTimeoutMaxCount>5</connectionTimeoutMaxCount>
       <rotor id="0">
         <vel_p_gain>0.01</vel_p_gain>
