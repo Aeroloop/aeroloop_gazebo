@@ -139,7 +139,7 @@
       <upward>0 0 1</upward>
       <link_name>quadcopter_model::rotor_3</link_name>
     </plugin>
-    <plugin name="arducopter_plugin" filename="libArduCopterPlugin.so">
+    <plugin name="betaflight_plugin" filename="libBetaflightPlugin.so">
       <imuName>quadcopter_attitude_control::quadcopter::quadcopter_model::quadcopter_model/imu_link::imu_sensor</imuName>
       <connectionTimeoutMaxCount>5</connectionTimeoutMaxCount>
       <rotor id="0">
