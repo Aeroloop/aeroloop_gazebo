@@ -705,7 +705,7 @@ void BetaflightPlugin::SendState() const
   {
 	  //Angular velocity is returned in rad/s
     pkt.escRpm[i] = this->dataPtr->rotors[i].joint->GetVelocity(0) * RADSEC2RPM; 
-	gzdbg << "GZ Motor " << i << " RPM " << pk.escRpm[i] << "\n";
+	gzdbg << "GZ Motor " << i << " RPM " << pkt.escRpm[i] << "\n";
   }
 
   struct sockaddr_in sockaddr;
