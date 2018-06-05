@@ -704,7 +704,7 @@ void BetaflightPlugin::SendState() const
   for (size_t i = 0; i < this->dataPtr->rotors.size(); ++i)
   {
 	  //Angular velocity is returned in rad/s
-    pkt.escRpm[i] = this->dataPtr->rotors[i].joint->GetVelocity(0) * RADSEC2RPM; 
+    pkt.escRpm[i] = this->dataPtr->rotors[i].joint->GetVelocity(0);// * RADSEC2RPM; 
 	//gzdbg << "GZ Motor " << i << " RPM " << pkt.escRpm[i] << "\n";
   }
 
