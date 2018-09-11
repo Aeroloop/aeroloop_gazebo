@@ -84,13 +84,9 @@
       </link>
     </model>
 
-	<!--
-    <model name="iris_demo">
-      <include>
-        <uri>model://betaloop_iris_with_standoffs_demo</uri>
-      </include>
-    </model>
--->
+	<include>
+		<uri>model://quadcopter</uri>
+	</include>
 
 	<model name="gasstation">
       <static>true</static>
