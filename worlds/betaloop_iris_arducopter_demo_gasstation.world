@@ -85,7 +85,7 @@
     </model>
 
 	<include>
-		<uri>model://quadcopter</uri>
+		<uri>model://betaloop_iris_with_standoffs_demo</uri>
 	</include>
 
 	<model name="gasstation">
